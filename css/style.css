@@ -44,19 +44,22 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(../Images/maharana-pratap-college-of-technology-gwalior-ho-gwalior-institutes-v2rupt4.avif)no-repeat;
+    background: url(../Images/22dae3043982879421adebfbcf179e09.jpg)no-repeat;
     background-size: cover;
    }
    .registratio-mani{
-    border: solid 2px #ffffffb8;
+    border: solid 2px deepskyblue;
     border-radius: 20px;
     background: transparent;
    }
    .regs_heading{
     font-size: 40px;
-    color: aliceblue;
+    color:deepskyblue;
     font-weight: 100;
 }
 .ABS{
-  color: white;
+  color:deepskyblue;
+}
+#ffff{
+  background: transparent;
 }

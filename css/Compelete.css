@@ -39,13 +39,21 @@
     font-style: normal;
   } */
 
+  body{
+    background-color: aqua;
+  }
+
 .desk_logo{
     border: none;
     border-radius: 55px;
 
 }
 .navigationss{
-    background-color: rgb(0 166 255 / 42%) !important;
+  background:
+  linear-gradient(rgb(0, 255, 221), transparent),
+  linear-gradient(to top left, lime, transparent),
+  linear-gradient(to top right, blue, transparent);
+background-blend-mode: screen;
 }
 .ul-for-nav{
     font-family: "Kurale", serif;
@@ -53,6 +61,50 @@
     font-size: 20px;
     letter-spacing: 5px;
 }
-.banner{
-  margin-top: 110px;
+#main-continer{
+  margin-top: 150px;
 }
+.HHHH{
+  font-family: "Changa One", sans-serif;
+  color: #00d299c2;
+}
+.HHHHH{
+  color: aquamarine;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-family: "Jacquard 24", system-ui;
+}
+.Curiculam{
+  padding: 10px 40px;
+}
+.Extra{
+  width: 100%;
+    height: 400px;
+    --_g: 10% /45% 45% no-repeat linear-gradient(#000 0 0);
+    --m:
+      left   var(--_i,0%) top    var(--_g),
+      bottom var(--_i,0%) left   var(--_g),
+      top    var(--_i,0%) right  var(--_g),
+      right  var(--_i,0%) bottom var(--_g);
+    -webkit-mask: var(--m);
+            mask: var(--m);
+    filter: grayscale();
+    transition: .3s linear;
+    cursor: pointer;
+    
+}
+.Extra:hover{
+  --_i: 10%;
+  filter: grayscale(0);
+}
+#spansection{
+  text-align: center;
+    padding: 25px 60px;
+    color: #d7dbff;
+    font-size: 30px;
+    line-height: 50px;
+    font-family: "Changa One", sans-serif;
+}
+
