@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/*                                   heading
+.changa-one-regular {
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .changa-one-regular-italic {
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+                                       sub heading
+  .kurale-regular {
+    font-family: "Kurale", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+                            paragraph
+  .open-sans-uniquifier {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+                                    title
+  .jacquard-24-regular {
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  } */
+
+.desk_logo{
+    border: none;
+    border-radius: 55px;
+
+}
+.navigationss{
+    background-color: rgb(0 166 255 / 42%) !important;
+}
+.ul-for-nav{
+    font-family: "Kurale", serif;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.banner{
+  margin-top: 110px;
+}
