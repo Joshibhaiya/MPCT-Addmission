@@ -107,4 +107,316 @@ background-blend-mode: screen;
     line-height: 50px;
     font-family: "Changa One", sans-serif;
 }
+#faculties-section{
+  margin: 60px 0px;
+  padding: 40px;
+}
+.fac-heading{
+  text-align: center;
+    color: aliceblue;
+    font-size: 55px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+#fac-papa{
+  font-family: "Changa One", sans-serif;
+  color: aliceblue;
+  line-height: 30px;
+  letter-spacing: 3px;
+  text-align: end;
+  padding: 35px;
+  font-size: 21px;
+  word-spacing: 8px;
+}
+#img-fac{
+  padding: 45px;
+}
+#A{
+width: 100%;
+height: 450px;
+}
+#BBtn{
+  background: aliceblue;
+    margin-top: 45px;
+}
+.BBtnnn{
+  text-decoration: none;
+    font-size: 25px;
+    padding: 0px 16px;
+    color: black;
+    border: 20px dotted;
+}
 
+
+@keyframes lights {
+  0% {
+    color: hsl(230, 40%, 80%);
+    text-shadow:
+      0 0 1em hsla(320, 100%, 50%, 0.2),
+      0 0 0.125em hsla(320, 100%, 60%, 0.3),
+      -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+      1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+  }
+  
+  30% { 
+    color: hsl(230, 80%, 90%);
+    text-shadow:
+      0 0 1em hsla(320, 100%, 50%, 0.5),
+      0 0 0.125em hsla(320, 100%, 60%, 0.5),
+      -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+      0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+  }
+  
+  40% { 
+    color: hsl(230, 100%, 95%);
+    text-shadow:
+      0 0 1em hsla(320, 100%, 50%, 0.5),
+      0 0 0.125em hsla(320, 100%, 90%, 0.5),
+      -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
+      0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
+  }
+  
+  70% {
+    color: hsl(230, 80%, 90%);
+    text-shadow:
+      0 0 1em hsla(320, 100%, 50%, 0.5),
+      0 0 0.125em hsla(320, 100%, 60%, 0.5),
+      0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+      -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+  }
+  
+  100% {
+    color: hsl(230, 40%, 80%);
+    text-shadow:
+      0 0 1em hsla(320, 100%, 50%, 0.2),
+      0 0 0.125em hsla(320, 100%, 60%, 0.3),
+      1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+      -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+  }
+  
+}
+
+
+.H22 {
+  font-family: "Kurale", serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin: auto;
+  font-size: 60px;
+  font-weight: 300;
+  animation: lights 5s 750ms linear infinite;
+}
+
+.paara{
+  font-family: "Kurale", serif;
+  text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    color: antiquewhite;
+    letter-spacing: 4px;
+    font-size: 18px;
+    font-weight: 500;
+}
+#courses{
+  padding: 5px 120px;
+}
+.card-heading{
+  text-align: center;
+    color: #06d5b1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.card-pp{
+  text-align: center;
+    color: #0baadb;
+}
+#footer-back{
+  background-color: #06d5b1;
+}
+
+/* about section css */
+.about-container{
+  color: #00b9be;
+    text-align: center;
+    margin-top: 170px;
+    margin-bottom: 62px;
+}.about-heading{
+  font-size: 55px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-family: "Kurale", serif;
+}
+
+.effect-underline:after {
+	content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+  opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+.effect-underline:hover:after {
+  opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.about-maharana{
+  font-family: "Open Sans", sans-serif;
+  text-align: end;
+    line-height: 45px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.about-maharana-image{
+  width: 100%;
+    height: 550px;
+    border: none;
+    border-radius: 80px;
+}
+
+#our-canteen-hostels{
+  text-align: center;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+.container {
+  position: relative;
+  width: 1160px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  transform-style: preserve-3d;
+  perspective: 500px;
+  margin: auto;
+}
+.container .box {
+  position: relative;
+  width: 275px;
+  height: 275px;
+  background: #000;
+  transition: 0.5s;
+  transform-style: preserve-3d;
+  overflow: hidden;
+  margin-right: 15px;
+  margin-top: 45px;
+}
+.container:hover .box {
+  transform: rotateY(25deg);
+}
+.container .box:hover ~ .box {
+  transform: rotateY(-25deg);
+}
+.container .box:hover {
+  transform: rotateY(0deg) scale(1.25);
+  z-index: 1;
+  box-shadow: 0 25px 40px rgba(0,0,0,0.5);
+}
+.container .box .imgBx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.container .box .imgBx:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg,#f00,#000);
+  z-index: 1;
+  opacity: 0;
+  transition: 0.5s;
+  mix-blend-mode: multiply;
+}
+.container .box:hover .imgBx:before {
+  opacity: 1;
+}
+.container .box .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container .box .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  padding: 20px;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+.container .box .content h2 {
+  color: #fff;
+  transition: 0.5s;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-size: 20px;
+  transform: translateY(200px);
+  transition-delay: 0.3s;
+}
+.container .box:hover .content h2 {
+  transform: translateY(0px);
+}
+.container .box .content p {
+  color: #fff;
+  transition: 0.5s;
+  font-size: 14px;
+  transform: translateY(200px);
+  transition-delay: 0.4s;
+}
+.container .box:hover .content p {
+  transform: translateY(0px);
+}
+
+
+/* about section css end
+ */
+
+
+ #headingofmainsection{
+    color: aliceblue;
+    font-weight: 100;
+    font-style: italic;
+    letter-spacing: 5px;
+ }
+ .main-img{
+  padding: 0px 100px;
+ }
+
+ .p-img{
+
+ }
+
+ /*  */
+ 
