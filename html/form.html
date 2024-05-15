@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/css/Compelete.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Jacquard+24&family=Kurale&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="background-color: rgb(0, 0, 0)">
+    <!-- navigation is start -->
+    <nav
+      class="navbar navbar-expand-md header fixed-top ps-4 pt-1 navigationss"
+    >
+      <div class="container-fluid">
+        <a href="" class="navbar-brand">
+          <!-- Desktop logo -->
+          <a href="/dashboard">
+            <img
+              src="../Images/imagesmpct logo.jpeg"
+              width="100px"
+              class="desk_logo"
+            />
+          </a>
+        </a>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#pn"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="pn">
+          <ul class="navbar-nav ms-auto text-uppercase ul-for-nav">
+            <li><a href="" class="nav-link">Home</a></li>
+            <li><a href="" class="nav-link">About</a></li>
+            <li><a href="" class="nav-link">Contact</a></li>
+            <li><a href="" class="nav-link">Logout</a></li>
+            <li>
+              <a
+                href=""
+                class="nav-link user"
+                data-bs-toggle="modal"
+                data-bs-target="#aa"
+                >Rohit joshi</a
+              >
+            </li>
+          </ul>
+          <img
+            src="../Images/5850276.png"
+            width="100px"
+            height="100px"
+            alt="...."
+            class="me-3"
+          />
+        </div>
+      </div>
+      <!--container-fluid end -->
+    </nav>
+    <!-- Navigation is end --->
+    <div class="container-fluid form-con">
+      <div class="row">
+        <h1>B.tech registration Form</h1>
+        <h1>Do register!</h1>
+        <p>In case any qurery,Kindly Contact: 7474978812</p>
+      </div>
+    </div>
+    <!-- form section start -->
+    <div class="container-fluid" id="form-heading">
+      <div class="row" id="row-ofmain-form">
+        <div class="col-md-4">
+          <div
+            id="carouselExampleInterval"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img
+                  src="../Images/Enginering.jpg"
+                  class="d-block w-100"
+                  style="height: 810px"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img
+                  src="../Images/Engineering2.jpg"
+                  class="d-block w-100"
+                  style="height: 810px"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../Images/enginerring3.jpg"
+                  class="d-block w-100"
+                  style="height: 810px"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-md-8" id="form-body">
+          <form
+            action="/register/btech"
+            method="post"
+            enctype="multipart/form-data"
+          >
+            <!-- <input type="text" name="user_id" value="65c228746b1c96c5e217545e"> -->
+            <div class="mb-3 mt-1">
+              <label class="mb-2">Username:</label>
+              <input
+                type="text"
+                name="name"
+                value="Rohit joshi"
+                class="form-control enter_name"
+                placeholder="Enter name"
+                style="border: 1px solid #35b9dd"
+              />
+            </div>
+            <div class="mb-3">
+              <label class="mb-2">Email:</label>
+              <input
+                type="email"
+                name="email"
+                value="rohitjoshi552365@gmail.com"
+                class="form-control"
+                placeholder="Enter Email"
+                style="border-radius: 25px; border: 1px solid #35b9dd"
+              />
+            </div>
+            <div class="mb-3">
+              <label class="mb-2">Mobile No.</label>
+              <input
+                type="number"
+                name="number"
+                class="form-control"
+                placeholder="Enter Mobile Number"
+                style="border-radius: 25px; border: 1px solid #35b9dd"
+              />
+            </div>
+            <div class="mb-3">
+              <label class="mb-2">D.O.B:</label>
+              <input
+                type="date"
+                name="dob"
+                class="form-control"
+                style="border-radius: 25px; border: 1px solid #35b9dd"
+              />
+            </div>
+            <div class="mb-3">
+              <label class="mb-2">Gender</label>
+              <br />
+              <input type="radio" name="gender" value="male" />&nbsp;Male
+              <input type="radio" name="gender" value="female" />&nbsp;Female
+              <br />
+            </div>
+            <div class="mb-3">
+              <label>Address:</label>
+              <textarea
+                class="form-control"
+                name="address"
+                style="border-radius: 25px; border: 1px solid #35b9dd"
+              ></textarea>
+            </div>
+            <div class="mb-3">
+              <label>Select College</label>
+              <select
+                name="college"
+                class="form-control"
+                style="border-radius: 25px; border: 1px solid #35b9dd"
+              >
+                <option>Select</option>
+                <option>MITS</option>
+                <option>RJIT</option>
+                <option>ITM</option>
+                <option>NITM</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label>Course</label>
+              <select
+                name="course"
+                class="form-control"
+                style="border-radius: 25px; border: 1px solid #35b9dd"
+              >
+                <option>Select</option>
+                <option>B.Tech</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label>Branch</label>
+              <select
+                name="branch"
+                class="form-control"
+                style="border-radius: 25px; border: 1px solid #35b9dd"
+              >
+                <option>Select</option>
+                <option>CSE</option>
+                <option>IT</option>
+                <option>EC</option>
+                <option>ET</option>
+                <option>ME</option>
+                <option>EE</option>
+              </select>
+            </div>
+            <div class="text-center">
+              <button
+                class="btn my-4"
+                style="background-color: #35b9dd; color: #fff"
+                type="submit"
+              >
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- form footer -->
+    <!-- footer is start  -->
+       <!-- Footer -->
+<footer class="text-center text-lg-start text-muted" id="footer-back">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>MPCT COLLEGE
+          </h6>
+          <p>
+            Pratap Vahini Samaj Kalyan Sansthan, Gwalior was incepted in 1995 after the due registration from Registrar, Firms & Society, M.P. Govt. The society was established by Lt. Shri Ram Singh Dhakre and his associates. The society established the first Engg.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            courses
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">b.tech</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">m.tech</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">BCA</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">MCA</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            timing
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">monday-frinday:- 09:00am-05:00pm</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">sunday-saturday:- 09:00am-02:00pm</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+       <!-- footer is end -->
+  </body>
+</html>
